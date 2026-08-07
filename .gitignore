@@ -160,3 +160,22 @@ cython_debug/
 
 # logs
 logs
+
+# Training logs
+logs/
+
+# Model checkpoints
+*.pt
+*.pth
+*.onnx
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Tensorboard
+runs/
+
+# IDE
+.vscode/
+.idea/
